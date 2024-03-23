@@ -1,4 +1,5 @@
 import './Header.css'
+import Stopwatch from './Stopwatch'; 
 
 
 const Header = (props) =>  {
@@ -7,7 +8,7 @@ const Header = (props) =>  {
   return (
     <div className="container">
        <div className="find-them"> Find Them </div>
-       <div className="stopwatch"> 00:00:00 </div>
+       <Stopwatch isRunning={props.isRunning}/>
        <div className="character-images"> 
        <img src={props.character_images[0]} alt="character-image-1" />
        <img src={props.character_images[1]} alt="character-image-2" />
