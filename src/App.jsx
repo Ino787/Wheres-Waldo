@@ -1,14 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Header from './Header.jsx'
+import character_image_1 from './Bowser.png';
+import character_image_2 from './Metroid.png';
+import character_image_3 from './Tom.png';
+
+
 
 const App = () =>  {
-  //const [count, setCount] = useState(0)
 
   return (
     <>
-     <div>This is The Header </div>
+     <Header character_images={[character_image_1, character_image_2, character_image_3]}/>
      <div>This is Map </div>
      <div>This is The Footer </div>
     </>

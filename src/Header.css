@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    height: 10%;
+    min-height: 10%;
+    background-color: rgb(31 41 55);
+    color: white;
+    font-size: 25px;
+}
+
+
+.character-images img {
+    width: 40%;
+    height: 100%;
+}
+
+
+.character-images {
+    display: flex;
+    width: 25%;
+}
+
+.find-them {
+    width: 25%;
+    margin-right: 5%;
+    align-self: center;
+    padding-left: 1%;
+    font-weight: bold;
+}
+
+.stopwatch {
+    width: 50%;
+    align-self: center;
+}
